@@ -1,9 +1,74 @@
-.site-nav:hover,
-.site-nav:focus {
-  color: #2196f3;
+:root {
+  /* основной цвет текста */
+  --main-text-color: #212121;
+  /* вторичный цвет текста */
+  --text-color: #757575;
+  /* цвет-акцент */
+  --theme-accent: #2196f3;
+  /* основной цвет фона */
+  --main-bgd-color: #fff;
+  /* вторичный цвет фона */
+  --bgd-color: #2f303a;
+  /* цвет фона кнопок */
+  --bgd-button-color: #f5f4fa;
 }
 
-.header-address:hover,
-.header-address:focus {
-  color: #2196f3;
+body {
+  background-color: var(--main-bgd-color);
+  color: var(--main-text-color);
+}
+
+/* Шапка */
+
+.site-nav {
+  color: var(--main-text-color);
+}
+
+.site-nav.current {
+  color: var(--theme-accent);
+}
+
+.site-nav:hover,
+.site-nav:focus,
+.contacts:hover,
+.contacts:focus,
+.button:hover {
+  color: var(--theme-accent);
+}
+
+/* Кнопка */
+
+.button {
+  cursor: pointer;
+  color: var(--main-text-color);
+  background-color: var(--bgd-button-color);
+}
+
+.botton.primory {
+  background-color: var(--theme-accent);
+  color: var(--main-bgd-color);
+}
+
+.button.secondary {
+  background-color: var(--main-bgd-color);
+  color: var(--theme-accent);
+}
+
+.contacts {
+  color: var(--text-color);
+}
+
+/* Секции */
+
+.section-title {
+  color: var(--main-text-color);
+}
+
+.section-text,
+.adress-footer {
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
 }

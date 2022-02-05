@@ -15,20 +15,18 @@
         <a href="./index.html"><span>Web</span>Studio</a>
         <ul>
           <li><a class="site-nav" href="./index.html">Студия</a></li>
-          <li><a class="site-nav" href="./portfolio.html">Портфолио</a></li>
+          <li>
+            <a class="site-nav current" href="./portfolio.html">Портфолио</a>
+          </li>
           <li><a class="site-nav" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul>
         <li>
-          <a class="header-address" href="info@devstudio.com">
-            info@devstudio.com
-          </a>
+          <a class="contacts" href="info@devstudio.com"> info@devstudio.com </a>
         </li>
         <li>
-          <a class="header-address" href="tel:+380961111111">
-            +38 096 111 11 11
-          </a>
+          <a class="contacts" href="tel:+380961111111"> +38 096 111 11 11 </a>
         </li>
       </ul>
     </header>
@@ -37,11 +35,11 @@
       <section>
         <ul>
           <li>
-            <button type="button">Все</button>
-            <button type="button">Веб-сайты</button>
-            <button type="button">Приложения</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
+            <button type="button" class="button">Все</button>
+            <button type="button" class="button">Веб-сайты</button>
+            <button type="button" class="button">Приложения</button>
+            <button type="button" class="button">Дизайн</button>
+            <button type="button" class="button">Маркетинг</button>
           </li>
         </ul>
       </section>
@@ -51,71 +49,92 @@
             <img
               src="./images/img-portfolio/img.jpg"
               alt="Сайт компании Технокряк"
+              width="370"
+              height="294"
             />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h3 class="section-title">Технокряк</h3>
+            <p class="section-text">Веб-сайт</p>
           </li>
           <li>
             <img
               src="./images/img-portfolio/img(1).jpg"
               alt="Спортивный постер"
+              width="370"
+              height="294"
             />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <h3 class="section-title">Постер New Orlean vs Golden Star</h3>
+            <p class="section-text">Дизайн</p>
           </li>
           <li>
             <img
               src="./images/img-portfolio/img(2).jpg"
               alt="Приложение для ресторана Seafood"
+              width="370"
+              height="294"
             />
-            <h3>Ресторан Seafood</h3>
-            <p>Приложение</p>
+            <h3 class="section-title">Ресторан Seafood</h3>
+            <p class="section-text">Приложение</p>
           </li>
           <li>
             <img
               src="./images/img-portfolio/img(3).jpg"
               alt="Маркетинг для проекта Prime"
+              width="370"
+              height="294"
             />
-            <h3>Проект Prime</h3>
-            <p>Маркетинг</p>
+            <h3 class="section-title">Проект Prime</h3>
+            <p class="section-text">Маркетинг</p>
           </li>
           <li>
             <img
               src="./images/img-portfolio/img(4).jpg"
               alt="Приложение для проекта Boxes"
+              width="370"
+              height="294"
             />
-            <h3>Проект Boxes</h3>
-            <p>Приложение</p>
+            <h3 class="section-title">Проект Boxes</h3>
+            <p class="section-text">Приложение</p>
           </li>
           <li>
             <img
               src="./images/img-portfolio/img(5).jpg"
               alt="Веб-сайт Inspiration has no Borders"
+              width="370"
+              height="294"
             />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h3 class="section-title">Inspiration has no Borders</h3>
+            <p class="section-text">Веб-сайт</p>
           </li>
           <li>
             <img
               src="./images/img-portfolio/img(6).jpg"
               alt="Дизайн издания Limited Edition"
+              width="370"
+              height="294"
             />
-            <h3>Издание Limited Edition</h3>
-            <p>Дизайн</p>
+            <h3 class="section-title">Издание Limited Edition</h3>
+            <p class="section-text">Дизайн</p>
           </li>
           <li>
             <img
               src="./images/img-portfolio/img(7).jpg"
               alt="Маркетинг для Проека LAB"
+              width="370"
+              height="294"
             />
-            <h3>Проект LAB</h3>
-            <p>Маркетинг</p>
+            <h3 class="section-title">Проект LAB</h3>
+            <p class="section-text">Маркетинг</p>
           </li>
           <li>
-            <img src="./images/img-portfolio/img(8).jpg" alt="Приложение для
-            Growing Business"/ >
-            <h3>Growing Business</h3>
-            <p>Приложение</p>
+            <img
+              src="./images/img-portfolio/img(8).jpg"
+              alt="Приложение для
+            Growing Business"
+              width="370"
+              height="294"
+            />
+            <h3 class="section-title">Growing Business</h3>
+            <p class="section-text">Приложение</p>
           </li>
         </ul>
       </section>
@@ -127,10 +146,14 @@
         <p>г. Киев, пр-т Леси Украинки, 26</p>
       </address>
       <address>
-        <a target="_blank" href="info@devstudio.com">info@devstudio.com</a>
+        <a target="_blank" href="info@devstudio.com" class="contacts"
+          >info@devstudio.com</a
+        >
       </address>
       <address>
-        <a target="_blank" href="+380961111111">+38 096 111 11 11</a>
+        <a target="_blank" href="+380961111111" class="contacts"
+          >+38 096 111 11 11</a
+        >
       </address>
     </footer>
   </body>
