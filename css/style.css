@@ -113,6 +113,11 @@ ul {
 /* Кнопка */
 
 .button-portfolio {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   cursor: pointer;
   color: var(--main-text-color);
   background-color: var(--bgd-button-color);
@@ -124,6 +129,7 @@ ul {
 }
 
 .order-button {
+  font-family: Roboto, sans-serif;
   cursor: pointer;
   background-color: var(--theme-accent);
   color: var(--main-bgd-color);
@@ -167,7 +173,7 @@ ul {
 /* Наши особенности */
 
 .feature {
-  font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -229,10 +235,12 @@ ul {
 
 .geolocation {
   color: var(--main-bgd-color);
+  font-style: normal;
   line-height: 1.71;
 }
 
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   line-height: 1.71;
 }
